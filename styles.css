@@ -1,13 +1,23 @@
-body {
-    display: grid;
-    grid-template-columns: minmax(min-content, 1fr) 4fr;
+:root {
+    --sidebar-width: max(200px, 15%);
 }
 
 .main {
     height: 100vh;
+    position: absolute;
+    top: 0;
+    left: var(--sidebar-width);
+    right: 0;
+    bottom: 0;
 }
 .sidebar{
     height: 100%;
+    position: fixed;
+    width: var(--sidebar-width);
+    top:0;
+    left:0;
+    bottom: 0;
+    overflow-x: hidden;
     background-color: #1c759e;
 }
 .main {
