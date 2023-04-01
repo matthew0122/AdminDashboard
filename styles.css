@@ -1,0 +1,50 @@
+body {
+    display: grid;
+    grid-template-columns: minmax(min-content, 1fr) 4fr;
+}
+
+.main {
+    height: 100vh;
+}
+.sidebar{
+    height: 100%;
+    background-color: #1c759e;
+}
+.main {
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+}
+.header {
+    height: 200px;
+    background-color: red;
+}
+.info {
+    background-color: #888888;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 360px);
+    gap: 50px 20px;
+    justify-content: center;
+}
+.cardholder{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 10px 350px;
+}
+.card {
+    background-color: #eeeeee;
+    height: 250px;
+    border-radius: 0 10px 10px 0;
+}
+.side {
+    background-color: #f58f3b;
+    height: 250px;
+    border-radius: 10px 0 0 10px;
+}
+.right-bar {
+    background-color: blue;
+    height: 100%;
+}
