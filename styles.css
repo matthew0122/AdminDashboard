@@ -18,7 +18,7 @@
     left:0;
     bottom: 0;
     overflow-x: hidden;
-    background-color: #1c759e;
+    background-color: #3c95be;
 }
 .main {
     display: grid;
@@ -66,15 +66,12 @@ img {
     margin-right: 10px;
     margin-left: 5px;
 }
-img:hover {
-    width: 25px;
-    transition: width 0.3s;
-}
 .sidebar {
     padding-top: 20px;
+    padding-left: 10px;
     display: flex;
     flex-direction: column;
-    align-items: center; 
+    align-items: start; 
 }
 .sideline {
     display: flex;
@@ -82,5 +79,17 @@ img:hover {
     justify-content: center;
 }
 .sideline-gap {
-    height: 50px;
+    height: 30px;
+}
+a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+a:hover img {
+    width: 25px;
+    transition: width 0.3s;
+}
+a:visited {
+    color: black;
 }
