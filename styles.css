@@ -81,3 +81,6 @@ img:hover {
     align-items: center;
     justify-content: center;
 }
+.sideline-gap {
+    height: 50px;
+}
