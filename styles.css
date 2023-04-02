@@ -97,3 +97,12 @@ a:hover img {
 a:visited {
     color: black;
 }
+#searchbar {
+    border-radius: 17px;
+    border: 1px solid gray;
+    min-width: 200px;
+    width: 50%;
+    min-height: 30px;
+    font-size: 25px;
+    background-color: #e4f3fa;
+}
