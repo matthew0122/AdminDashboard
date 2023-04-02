@@ -70,3 +70,14 @@ img:hover {
     width: 25px;
     transition: width 0.3s;
 }
+.sidebar {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+.sideline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
