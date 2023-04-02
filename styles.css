@@ -100,6 +100,7 @@ a:visited {
 #searchbar-area {
     width: 50%;
     min-width: 200px;
+    margin-left: 20px;
 }
 #searchbar {
     border-radius: 17px;
@@ -109,14 +110,19 @@ a:visited {
     min-height: 30px;
     font-size: 25px;
     background-color: #e4f3fa;
+    padding-left: 10px;
 }
 .search-area {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 img[alt="profile-picture"] {
     width: 50px;
+}
+img[alt="profile-picture2"] {
+    width: 80px;
+    margin-left: 20px;
 }
 .flexy {
     display: flex;
@@ -124,4 +130,13 @@ img[alt="profile-picture"] {
 }
 #name {
     align-self:flex-end;
+    margin-right: 20px;
+}
+.hi-there {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.buttons {
+    margin-right: 20px;
 }
