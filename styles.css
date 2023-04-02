@@ -1,5 +1,5 @@
 :root {
-    --sidebar-width: max(200px, 15%);
+    --sidebar-width: max(210px, 15%);
 }
 
 .main {
@@ -23,16 +23,18 @@
 .main {
     display: grid;
     grid-template-rows: 1fr 5fr;
+    
 }
 .header {
     height: max(auto, 200px);
     min-height: 200px;
-    background-color: red;
+    background-color: #eeeeee;
 }
 .info {
-    background-color: #888888;
+    background-color: #c8c8c8;
     display: grid;
     grid-template-columns: 4fr 1fr;
+    box-shadow:inset 0px 0px 8px 1px black;
 }
 .cards {
     display: grid;
@@ -58,7 +60,9 @@
 }
 .right-bar {
     background-color: blue;
+    min-width: 90px;
     height: 100%;
+    box-shadow:inset 0px 0px 8px 1px black;
 }
 img {
     width: 20px;
