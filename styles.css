@@ -53,6 +53,8 @@
     background-color: #eeeeee;
     height: 250px;
     border-radius: 0 10px 10px 0;
+    display: grid;
+    grid-template-rows: 1fr 8fr 1fr;
 }
 .side {
     background-color: #f58f3b;
@@ -153,4 +155,9 @@ img[alt="profile-picture2"] {
 .card > h3, .card > p {
     margin: 15px 10px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.flexy2 {
+    display: flex;
+    justify-content:flex-end;
+    margin-bottom: 3px;
 }
